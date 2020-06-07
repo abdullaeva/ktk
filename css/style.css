@@ -203,24 +203,33 @@ body {
         background-color: #911B27;
         width:33.3%;
         float:left;
-        
         color: rgb(255, 255, 255);
         }
 .Right {
-	background-color: #B8B5B2;
+	background-color: #911B27;
 	width:66.7%;
 	float:left;
-    height:100vh;
-    color: #911B27;
+    	height:100vh;
+    	color: #B8B5B2;
+	display:flex;
+        justify-content: center;
+        align-items: center;
 
     }
     .RightLong {
         background-color: #B8B5B2;
         width:66.7%;
         float:left;
-        
-        color: #911B27;
-    
+        color: #911B27;  
+        }
+    .RightLong1 {
+        background-color: rgb(255, 255, 255);
+        width:66.7%;
+        float:left;
+        color: #911B27;  
+	display:flex;
+        justify-content: center;
+        align-items: center;
         }
     .Right1 {
         background-color: rgb(255, 255, 255);
@@ -303,10 +312,13 @@ body {
 .imeg {
 
 padding-left:4.3vw;
-padding-right:4.3vw;
-width: 100%;
+padding-right:8.4vw;
+padding-top:13.5vh;
+padding-bottom:4.3vh;
+max-width: 100%;
+max-height: 100%;
+display: block;
 box-sizing:border-box;
-
 }
 /* Подвал
 ==================================================*/
