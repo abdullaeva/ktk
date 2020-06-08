@@ -367,12 +367,29 @@ a:active {
 .dl {
   color: white;
   text-align: center;
+  display: block;
+  font-size: 3vmin;
+  padding-top: 3vh;
+}
+.dl:link {
+  color: white; 
+  border-bottom: 0; 
+}
+.dl:visited {
+  color: white;
+}
+.dl:hover {
+  color: white; 
+  border-bottom: 0;
+}
+.dl:active {
+  color: white; 
+  border-bottom: 0;
 }
 /* Подвал
 ==================================================*/
 .copy {
-    border: 30px;
-   border-style:solid;
-   border-color: #911B27;
+   height: 10vh;
+   background-color: #911B27;
     
   }
