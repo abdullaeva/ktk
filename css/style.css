@@ -344,6 +344,26 @@ display: block;
 box-sizing:border-box;
 object-fit: contain;
 }
+/* форматирование ссылок
+==================================================*/
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #911B27; 
+  border-bottom: 0; 
+}
+a:visited {
+  color: #911B27;
+}
+a:hover {
+  color: #911B27; 
+  border-bottom: 0;
+}
+a:active {
+  color: #911B27; 
+  border-bottom: 0;
+}
 /* Подвал
 ==================================================*/
 .copy {
