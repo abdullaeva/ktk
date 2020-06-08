@@ -364,6 +364,10 @@ a:active {
   color: #911B27; 
   border-bottom: 0;
 }
+.dl {
+  color: white;
+  text-align: center;
+}
 /* Подвал
 ==================================================*/
 .copy {
