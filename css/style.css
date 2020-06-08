@@ -237,7 +237,6 @@ body {
         float:left;
         height:100vh;
         color: #911B27;
-    
         }
     .Right2 {
         background-color: rgb(255, 255, 255);
@@ -265,47 +264,71 @@ body {
 }
 .vv1 {
     padding-top: 8.6vh;
-    font-size: 30px;
+    font-size: 4vmin;
     padding-left: 4.3vw;
-    line-height: 34px;
+    padding-right: 4.3vw;
+    line-height: 100%;
     margin-block-start: 0;
+    margin-block-end: 0;
     font-weight: 400;
 }
-
 .vv2 {
     padding-top: 13.2vh;
-    font-size: 25px;
+    font-size: 3vmin;
     padding-left: 3.7vw;
     padding-right: 8.4vw;
     Font-family: 'Roboto';
     Font-weight: 300;
-    letter-spacing: 2px;
     margin-block-start: 0;
     margin-block-end: 0;
+    text-align: justify;
+    line-height: 1;
 }
-
 .vv3 {
     padding-left: 3.7vw;
     padding-right: 8.4vw;
+    padding-top: 4vh;
     padding-bottom: 4.3vh;
     margin-block-end: 0;
     margin-block-start: 0;
+    text-align: justify;
+    font-size: 2vmin;
+    line-height: 1;
+    Font-family: 'Roboto';
+    Font-weight: 300;
 }
-
-
 .text {
-    padding-top:0.5em;
-    font-size: 15px;
-    padding-left:9.2vh;
+    padding-top:3vh;
+    font-size: 2vmin;
+    padding-left:4.3vw;
+    padding-right:4.3vw;
     line-height:150%;
     Font-weight: 400;
+    text-align: justify;
+    margin-block-start:0;
+    margin-block-end:0;
+}
+.text1 {
+    padding-top:8.6vh;
+    font-size: 4vmin;
+    padding-left:4.3vw;
+    padding-right:4.3vw;
+    line-height:100%;
+    Font-weight: 400;
+    text-align: justify;
+    margin-block-start:0;
+    margin-block-end:0;
 }
 .text2 {
-    padding-top:0.5em;
-    font-size: 15px;
-    padding-left:9.2vh;
-    line-height:150%;
-    white-space: pre;
+    padding-top:3vh;
+    font-size: 4vmin;
+    padding-left:4.3vw;
+    padding-right:4.3vw;
+    line-height:100%;
+    Font-weight: 400;
+    text-align: justify;
+    margin-block-start:0;
+    margin-block-end:0;
 }
 /* форматирование изображений секций
 ==================================================*/
